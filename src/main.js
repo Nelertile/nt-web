@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
-import {createRouter, createWebHistory} from 'vue-router'
+import VueRouter from 'vue-router'
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Contacts from './views/Contacts.vue'
 
-const router = createRouter({
-    history: createWebHistory(),
+const router = new VueRouter({
+    mode: 'history',
     routes: [{
         path: '/',
         name: 'home',
