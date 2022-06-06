@@ -16,6 +16,21 @@
                 <a href="https://www.youtube.com/channel/UCJukw7GFBmagAWuRLnStvqA">
                     <img src="../assets/youtube.svg" width="60"/>
                 </a>
+                <a href="https://twitter.com/NotToxicDev">
+                    <img src="../assets/twitter.svg" width="60"/>
+                </a>
+                <a href="https://github.com/NotToxicDev">
+                    <img src="../assets/github-original.svg" width="60"/>
+                </a>
+                <a href="https://www.npmjs.com/~nottoxicdev">
+                    <img src="../assets/npm-original-wordmark.svg" width="60"/>
+                </a>
+                <a href="https://open.spotify.com/artist/5UQVeMYia8lvZaXngOGcne?si=3UgIRvJJQFGmPVOgFfnMhA">
+                    <img src="../assets/spotify.svg" width="60"/>
+                </a>
+                <a href="https://soundcloud.com/nottoxic-gaming">
+                    <img src="../assets/soundcloud.svg" width="60"/>
+                </a>
             
         </div>
     </div>
@@ -50,7 +65,11 @@
             display: flex;
             flex-direction: row;
             padding: 10px 0 0 0;
-            margin: 5px;
+            justify-content: center;
+
+            a{
+                margin: 5px;
+            }
         }
     }
 </style>
