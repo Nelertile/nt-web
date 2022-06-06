@@ -1,21 +1,50 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div id="app">
+    <DesktopNav id="desktop-nav"/>
+    <MobileNav id="mobile-nav"/>
+    <div class="view-container">
+      <router-view/>
+    </div>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<script>
+import DesktopNav from './components/DesktopNav.vue'
+import MobileNav from './components/MobileNav.vue'
+export default {
+  components: {
+    DesktopNav,
+    MobileNav
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+  .view-container {
+    width: 79vw;
+    padding: .5em;
+    margin-left: 20vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #485460;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+@media screen and (max-width: 800px){
+  .view-container {
+    width: 100%;
+    margin-left: 0;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  #mobile-nav {
+    display: flex;
+  }
 }
 </style>
