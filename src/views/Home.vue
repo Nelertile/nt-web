@@ -12,37 +12,6 @@
             <p>Hello, I'm a swedish Musician, Developer, 
                 Pixel Artist and Content Creator who generally loves open-world games.
                 For music, I generally enjoy Lo-Fi and J-Pop music, but also video game music. </p>
-            <h3>Software i use</h3>
-            <table width="100%">
-                <tr>
-                    <th>Purpose</th>
-                    <th>Software</th>
-                </tr>
-                <tr>
-                    <td>Design</td>
-                    <td>Photoshop, paint.net, Aseprite</td>
-                </tr>
-                <tr>
-                    <td>Recording</td>
-                    <td>OBS Studio</td>
-                </tr>
-                <tr>
-                    <td>Video Editing</td>
-                    <td>DaVinci Resolve 17</td>
-                </tr>
-                <tr>
-                    <td>Music Production</td>
-                    <td>Waveform 11 Free, Audacity</td>
-                </tr>
-                <tr>
-                    <td>Developing</td>
-                    <td>VSCode, Unity, google.com</td>
-                </tr>
-                <tr>
-                    <td>Planning</td>
-                    <td>Trello, Notion</td>
-                </tr>
-            </table>
         </div>
     </div>
 </template>
@@ -76,24 +45,6 @@
             p {
                 line-height: 1.5;
                 margin: 30px auto;
-            }
-        }
-        table {
-            border-spacing: 0px;
-            margin: 50px auto;
-            tr th, tr td {
-                border: 1px solid #485460;
-                border-top: none;
-                padding: 5px;
-                text-align: center;
-
-                &:first-of-type {
-                    border-left: none;
-                }
-
-                &:nth-of-type(2) {
-                    border-right: none;
-                }
             }
         }
     }

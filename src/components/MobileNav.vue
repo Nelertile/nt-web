@@ -6,6 +6,7 @@
         <div class="nav-menu">
             <ul class="nav-menu-list">
                 <li class="nav-list-item"><router-link to="/">About Me</router-link></li>
+                <li class="nav-list-item"><router-link to="/software">Software I use</router-link></li>
                 <li class="nav-list-item"><router-link to="/contacts">Contacts</router-link></li>
             </ul>
         </div>

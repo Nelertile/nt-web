@@ -3,6 +3,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import App from './App.vue'
 import Home from './views/Home.vue'
 import Contacts from './views/Contacts.vue'
+import Software from './views/Software.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -14,6 +15,10 @@ const router = createRouter({
         path: '/contacts',
         name: 'contacts',
         component: Contacts
+    },{
+        path: '/software',
+        name: 'software',
+        component: Software
     }
         ]})
 
