@@ -28,7 +28,7 @@
                 <a href="https://open.spotify.com/artist/5UQVeMYia8lvZaXngOGcne?si=3UgIRvJJQFGmPVOgFfnMhA">
                     <img src="../assets/spotify.svg" width="60"/>
                 </a>
-                <a href="https://soundcloud.com/nottoxic-gaming">
+                <a href="https://soundcloud.com/nottoxic">
                     <img src="../assets/soundcloud.svg" width="60"/>
                 </a>
             

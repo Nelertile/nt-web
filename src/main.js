@@ -7,6 +7,7 @@ import Software from './views/Software.vue'
 import Posts from './views/Posts.vue'
 
 import Post01 from './views/posts/01.vue'
+import Post02 from './views/posts/02.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -33,6 +34,16 @@ const router = createRouter({
         path: '/community-posts/new-website',
         name: 'post-01',
         component: Post01
+    },{
+        path: '/posts/01',
+        redirect: '/community-posts/new-website'
+    },{
+        path: '/posts/02',
+        redirect: '/community-posts/future-of-nottoxic'
+    },{
+        path: '/community-posts/future-of-nottoxic',
+        name: 'post-02',
+        component: Post02
     }
         ]})
 

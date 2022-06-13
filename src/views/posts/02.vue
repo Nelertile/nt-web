@@ -1,18 +1,25 @@
 <template>
     <div class="about-card">
         <div class="card-title">
-            <img src="../assets/NotToxic_Logo.png" 
+            <img src="../../assets/NotToxic_Logo.png" 
             alt="logo" class="avatar" width="120"/>
             <div class="title-text-content">
-                <p>Community Posts</p>
+                <p>Author</p>
                 <h2>NotToxic</h2>
+                <router-link to="/community-posts"><img src="../../assets/back-arrow.svg" width="20"></router-link>
             </div>
         </div>
         <div class="card-content">
-            <ul>
-                <li><router-link to="/posts/02"><h1>Music News!</h1></router-link></li>
-                <li><router-link to="/posts/01"><h1>New Website!</h1></router-link></li>
-            </ul>
+            <p>Hi! It's me, NotToxic. I'm here to talk about some news.</p>
+            <p>1. I have a new soundcloud.
+                I decided to delete the old one and make a new one. This means that it will take a while for my music to be available.
+            </p>
+            
+            <p>
+               2. I'm getting a new stream overlay.
+                Thanks to <a href="https://zetvue.carrd.co/">Zetvue</a> i'm getting a beautiful new stream overlay!
+            </p>
+            <p>Alright, that was all for this time, see you!</p>
         </div>
     </div>
 </template>
@@ -43,17 +50,9 @@
             }
         }
         .card-content {
-            p {
+            p, a{
                 line-height: 1.5;
                 margin: 30px auto;
-            }
-            ul {
-                padding: 0;
-            }
-            li {
-                list-style: none;
-            }
-            h2, a {
                 color: #05c46b;
             }
         }
