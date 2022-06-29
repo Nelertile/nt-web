@@ -5,6 +5,7 @@ import Home from './views/Home.vue'
 import Contacts from './views/Contacts.vue'
 import Software from './views/Software.vue'
 import Posts from './views/Posts.vue'
+import Discord from './views/Discord.vue'
 
 import Post01 from './views/posts/01.vue'
 import Post02 from './views/posts/02.vue'
@@ -44,8 +45,13 @@ const router = createRouter({
         path: '/community-posts/future-of-nottoxic',
         name: 'post-02',
         component: Post02
+    },{
+        path: '/discord',
+        name: 'discord',
+        component: Discord
     }
         ]})
+
 
 createApp(App)
 .use(router)

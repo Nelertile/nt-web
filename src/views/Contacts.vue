@@ -10,9 +10,10 @@
         </div>
         <div class="card-content">
             
-                <a href="https://discord.gg/Mk598VYkEz">
+                <router-link to="/discord">
                     <img src="../assets/discord.svg" width="60"/>
-                </a>
+                </router-link>
+                
                 <a href="https://www.youtube.com/channel/UCJukw7GFBmagAWuRLnStvqA">
                     <img src="../assets/youtube.svg" width="60"/>
                 </a>
