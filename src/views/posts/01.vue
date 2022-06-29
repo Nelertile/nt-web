@@ -5,7 +5,7 @@
             alt="logo" class="avatar" width="120"/>
             <div class="title-text-content">
                 <p>Author</p>
-                <h2>NotToxic</h2>
+                <h2>Nelertile</h2>
                 <router-link to="/community-posts"><img src="../../assets/back-arrow.svg" width="20"></router-link>
             </div>
         </div>

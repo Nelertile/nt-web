@@ -10,9 +10,7 @@
             </div>
         </div>
         <div class="card-content">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Odio at nisi laborum numquam, nam quod animi explicabo eligendi? 
-                Libero at animi exercitationem! Numquam quam ut deserunt odit expedita, voluptates ratione?</p>
+            <p>Hi, I'm Nelertile. But you can call me Tile. I just rebranded from NotToxic.</p>
         </div>
     </div>
 </template>

@@ -5,7 +5,7 @@
             alt="logo" class="avatar" width="120"/>
             <div class="title-text-content">
                 <p>Contacts</p>
-                <h2>NotToxic</h2>
+                <h2>Nelertile</h2>
             </div>
         </div>
         <div class="card-content">
@@ -17,10 +17,10 @@
                 <a href="https://www.youtube.com/channel/UCJukw7GFBmagAWuRLnStvqA">
                     <img src="../assets/youtube.svg" width="60"/>
                 </a>
-                <a href="https://twitter.com/NotToxicDev">
+                <a href="https://twitter.com/Nelertile">
                     <img src="../assets/twitter.svg" width="60"/>
                 </a>
-                <a href="https://github.com/NotToxicDev">
+                <a href="https://github.com/NelertileDev">
                     <img src="../assets/github-original.svg" width="60"/>
                 </a>
                 <a href="https://www.npmjs.com/~nottoxicdev">
@@ -28,9 +28,6 @@
                 </a>
                 <a href="https://open.spotify.com/artist/5UQVeMYia8lvZaXngOGcne?si=3UgIRvJJQFGmPVOgFfnMhA">
                     <img src="../assets/spotify.svg" width="60"/>
-                </a>
-                <a href="https://soundcloud.com/nottoxic">
-                    <img src="../assets/soundcloud.svg" width="60"/>
                 </a>
             
         </div>

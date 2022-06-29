@@ -1,3 +1,3 @@
-# ntd-web
+# nt-web
 
 my new website

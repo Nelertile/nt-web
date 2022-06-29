@@ -5,7 +5,7 @@
             alt="logo" class="avatar" width="120"/>
             <div class="title-text-content">
                 <p>Community Posts</p>
-                <h2>NotToxic</h2>
+                <h2>Nelertile</h2>
             </div>
         </div>
         <div class="card-content">
